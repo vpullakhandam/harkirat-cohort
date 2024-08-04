@@ -9,4 +9,8 @@ Hi, I'm Vaishnavi. I'm a recent graduate, and I've joined harkirat cohort 3.0 wi
 
 - [See the output](https://vscode-landing-page.vercel.app/)
 
+##### 2. Syntax and Complex Types of JS
+
+- [Access Code](https://github.com/vpullakhandam/harkirat-cohort/tree/main/week-1/JS-Basics)
+
 Stay tuned for more updates as I progress through this exciting journey!
