@@ -5,42 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visual Studio Code - Code Editor</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!-- Header -->
-    <div>
-      <h3>Visual Studio Code</h3>
+    <div class="navbar">
       <div>
-        <a>Docs</a>
-        <a>Updates</a>
-        <a>Blog</a>
-        <a>API</a>
-        <a>Extensions</a>
-        <a>FAQ</a>
-        <a>Learn</a>
+        <span class="vscode-main">Visual Studio Code</span>
+        <a href="/" class="topLink">Docs</a>
+        <a href="/" class="topLink">Updates</a>
+        <a href="/" class="topLink">Blog</a>
+        <a href="/" class="topLink">API</a>
+        <a href="/" class="topLink">Extensions</a>
+        <a href="/" class="topLink">FAQ</a>
+        <a href="/" class="topLink">Learn</a>
+      </div>
+      <div>
+        <input type="text" placeholder="Search Docs" class="input-box" />
+        <a href="/"><button class="download-btn">Download</button></a>
       </div>
     </div>
-    <div>
-      <input type="text" placeholder="Search Docs" />
-      <button>Download</button>
-    </div>
-    <div>
-      <a>Version 1.92</a>
+    <div class="msg">
+      <a class="link" href="/">Version 1.92</a>
       is now available! Read about the new features and fixes from July.
     </div>
     <!-- body -->
-    <div>
-      <div>
-        <div>Free. Built on open source. Runs everywhere.</div>
-        <div><h1>Code Editing. Redefined.</h1></div>
+    <div class="in-body">
+      <div class="comp2">
+        <span class="comp1">Free. Built on open source. Runs everywhere.</span>
+        <div class="home">Code Editing. Redefined.</div>
         <div>
-          <button>Download for macOS</button>
+          <button class="main-btn">Download for macOS</button>
         </div>
-        <div>
-          <a>Web</a>, <a> Insiders edition</a>, or <a>other platforms</a>
+        <div class="link-div">
+          <a class="link" href="/">Web</a>,
+          <a class="link" href="/"> Insiders edition</a>, or
+          <a class="link" href="/">other platforms</a>
         </div>
-        <div>
-          By using VS Code, you agree to its license and privacy statement.
+        <div class="end-text">
+            By using VS Code, you agree to its
+            <a class="link" href="/">license</a> and
+            <a class="link" href="/">privacy statement</a>.
         </div>
       </div>
       <!-- for image -->
