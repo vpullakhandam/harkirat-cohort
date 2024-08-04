@@ -7,6 +7,6 @@ Hi, I'm Vaishnavi. I'm a recent graduate, and I've joined harkirat cohort 3.0 wi
 
 ##### 1. Cloning VS Code Landing Page
 
-- [See the output](https://vscode-landing-clone.vercel.app/)
+- [See the output](https://vscode-landing-page.vercel.app/)
 
 Stay tuned for more updates as I progress through this exciting journey!
