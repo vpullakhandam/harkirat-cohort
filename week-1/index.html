@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visual Studio Code - Code Editor</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="images/fav-icon.png" />
   </head>
   <body>
     <!-- Header -->
     <div class="navbar">
       <div>
+        <img class="head-img" src="images/fav-icon.png" />
         <span class="vscode-main">Visual Studio Code</span>
         <a href="/" class="topLink">Docs</a>
         <a href="/" class="topLink">Updates</a>
@@ -20,9 +22,17 @@
         <a href="/" class="topLink">FAQ</a>
         <a href="/" class="topLink">Learn</a>
       </div>
-      <div>
-        <input type="text" placeholder="Search Docs" class="input-box" />
-        <a href="/"><button class="download-btn">Download</button></a>
+      <div class="search">
+        <div class="search-container">
+          <img
+            class="search-img"
+            src="https://code.visualstudio.com/assets/icons/search-dark.svg"
+          />
+          <input type="text" placeholder="  Search Docs" class="input-box" />
+        </div>
+        <div>
+          <a href="/"><button class="download-btn">Download</button></a>
+        </div>
       </div>
     </div>
     <div class="msg">
@@ -43,9 +53,9 @@
           <a class="link" href="/">other platforms</a>
         </div>
         <div class="end-text">
-            By using VS Code, you agree to its
-            <a class="link" href="/">license</a> and
-            <a class="link" href="/">privacy statement</a>.
+          By using VS Code, you agree to its
+          <a class="link" href="/">license</a> and
+          <a class="link" href="/">privacy statement</a>.
         </div>
       </div>
       <!-- for image -->

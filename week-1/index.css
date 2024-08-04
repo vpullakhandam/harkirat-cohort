@@ -41,6 +41,7 @@ body {
   padding: 10px 18px;
   color: #9ba3b4;
   border-radius: 4px;
+  margin-right: 5px;
 }
 
 .download-btn {
@@ -121,4 +122,17 @@ img {
 .end-text {
   color: #9ba3b4;
   font-size: 12px;
+}
+
+.search-container .search-img {
+  position: absolute;
+  width: 15px;
+  padding-left: 7px;
+  padding-top: 12px;
+}
+.head-img {
+  width: 20px;
+}
+.search {
+  display: flex;
 }
