@@ -15,6 +15,8 @@ Hi, I'm Vaishnavi. I'm a recent graduate, and I've joined harkirat cohort 3.0 wi
 
 Stay tuned for more updates as I progress through this exciting journey!
 
+<br>
+
 ### Week 2
 
 ##### 1. Sync and Async JS
@@ -27,7 +29,7 @@ Learnt about
 4. Async vs Sync code
 5. Event loops, callback queues, JS
 
-###### Assignment
+##### Assignment
 
 Promisified setTimeOut , Fetch, readFile
 
