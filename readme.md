@@ -21,7 +21,7 @@ Stay tuned for more updates as I progress through this exciting journey!
 
 ### Week 2
 
-##### 1. Sync and Async JS
+#### 1. Sync and Async JS
 
 Learnt about
 
