@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 const promisifiedReadFile = (filePath, typeOfEncoding) => {
   return new Promise((resolve, reject) => {
     fs.readFile(filePath, typeOfEncoding, (err, data) => {

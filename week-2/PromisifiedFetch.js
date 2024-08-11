@@ -1,5 +1,4 @@
 // fetch is already promise based but we can wrap it with a custom promise. it helps in error handling.
-
 const promisifiedFetch = (url, options = {}) => {
   return new Promise((resolve, reject) => {
     fetch(url, options)
@@ -14,7 +13,6 @@ const promisifiedFetch = (url, options = {}) => {
       .catch((error) => reject(error));
   });
 };
-
 promisifiedFetch("https://jsonplaceholder.org/comments/1")
   .then((data) => {
     console.log("Data:", data);
