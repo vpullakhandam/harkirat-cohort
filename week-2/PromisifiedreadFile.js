@@ -11,8 +11,8 @@ const promisifiedReadFile = (filePath, typeOfEncoding) => {
   });
 };
 
-const filePath = "file.txt";
-promisifiedReadFile(filePath, "utf8")
+// const filePath = "file.txt";
+promisifiedReadFile("file.txt", "utf8")
   .then((data) => {
     console.log(data);
   })
