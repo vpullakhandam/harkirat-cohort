@@ -3,15 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
+    <title>Enhanced To-Do List</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="todo-container">
       <h1>To-Do List</h1>
+      <div class="controls">
+        <button id="theme-toggle">Toggle Dark Mode</button>
+      </div>
       <div class="todo-input">
-        <input type="text" id="task-input" placeholder="Add a new task" />
+        <input type="text" id="task-input" laceholder="Add a new task" />
+        <select id="task-priority">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+        <textarea id="task-notes" placeholder="Add notes"></textarea>
         <button id="add-task-btn">Add Task</button>
+      </div>
+      <div class="progress-bar-container">
+        <div id="progress-bar"></div>
       </div>
       <ul id="task-list"></ul>
     </div>
