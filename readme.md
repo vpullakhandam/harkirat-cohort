@@ -38,3 +38,19 @@ Promisified setTimeOut , Fetch, readFile
 - [Access Code](https://github.com/vpullakhandam/harkirat-cohort/tree/main/week-2)
 
 ---
+
+### Week 3
+
+##### Assignment
+
+ToDo List Using only HTML, CSS and JS.
+
+- [See the output](/)
+
+---
+
+### Week 4
+
+##### Assignment
+
+In memory Todo App
