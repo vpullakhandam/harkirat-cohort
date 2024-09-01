@@ -24,6 +24,9 @@ app.get("/add", function (req, res) {
 app.get("/divide", function (req, res) {
   const a = req.query.a;
   const b = req.query.b;
+  if (b == 0) {
+    return res.json("Division by zero is not allowed.");
+  }
   res.json({
     ans: a / b,
   });
