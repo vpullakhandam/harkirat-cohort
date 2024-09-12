@@ -1,0 +1,153 @@
+/* General styling for the page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styles */
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: center;
+}
+
+/* Headings */
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #5c63da;
+}
+
+/* Buttons */
+button {
+  background-color: #5c63da;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: calc(100% - 20px);
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #474dbf;
+}
+
+/* Input container for to-dos */
+.todos-input-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.todos-input-container input {
+  flex: 1;
+}
+
+.todos-input-container button {
+  flex-shrink: 0;
+}
+
+/* To-do list container */
+#todos-list {
+  text-align: left;
+}
+
+/* To-do items */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+}
+
+/* To-do item text input */
+.todo-item input[type="text"] {
+  border: none;
+  background-color: transparent;
+  color: #333;
+  flex: 1;
+  padding-left: 12px;
+}
+
+/* Checkbox styling */
+.todo-item input[type="checkbox"] {
+  margin-right: 12px;
+}
+
+/* Delete button for to-dos */
+.todo-item button {
+  background-color: #e74c3c;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item button:hover {
+  background-color: #c0392b;
+}
+
+/* Logout button */
+#logout-btn {
+  background-color: #e67e22;
+  margin-bottom: 20px;
+}
+
+#logout-btn:hover {
+  background-color: #d35400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+
+  .todos-input-container {
+    flex-direction: column;
+  }
+
+  .todos-input-container button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
