@@ -51,6 +51,37 @@ ToDo List Using only HTML, CSS and JS.
 
 ### Week 4
 
+Learnt about
+
+1. Node JS, JavaScript Runtime
+2. HTTP Servers
+
+---
+
+### Week 5
+
+Learnt about Middlewares
+
+1. Route specific middlewares
+2. Commonly used middlewares
+   and solved the assignments
+
 ##### Assignment
 
-In memory Todo App
+- [Access Code](https://github.com/vpullakhandam/harkirat-cohort/tree/main/week-5)
+
+### Week 6
+
+Learnt about Authentication and created a todoapp using the concepts learnt so far.
+
+### Week 7
+
+Learnt about
+
+1. Databases (NoSQL)
+2. MongoDB
+3. Creating a URI
+4. CRUD Operations
+5. Testing
+6. Password Hashing
+7. Error Handling
