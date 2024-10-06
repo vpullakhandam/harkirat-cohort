@@ -18,10 +18,13 @@
 
 // Day 2 week-9!!
 
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function App() {
+  return <Counter />;
+}
+
+function Counter() {
   const [count, setCount] = useState(0);
 
   function incrementCounter() {
@@ -31,12 +34,17 @@ function App() {
     setCount(count - 1);
   }
   function resetCounter() {
-    setCount(count);
+    setCount(0); // Reset the counter to 0
   }
 
-  return <button onClick={incrementCounter}>Increment Counter {count}</button>;
-  return <button onClick={decrementCounter}>Decrement Counter</button>;
-  return <button onClick={resetCounter}>Reset Counter</button>;
+  return (
+    <div>
+      <div>{count}</div>
+      <button onClick={incrementCounter}>Increment Counter</button>
+      <button onClick={decrementCounter}>Decrement Counter</button>
+      <button onClick={resetCounter}>Reset Counter</button>
+    </div>
+  );
 }
 
 export default App;
